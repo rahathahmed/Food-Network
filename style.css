@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body{
+    margin: 0;
+    padding:0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.col-md-4{
+    width: 30%;
+    padding: 0 2%;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*  all css  */
+header{
+    display: flex;
+    padding: 100px 0px;
+    
+}
+header .header-left-side{
+    width: 50%;
+    padding-left:4%;
+}
+
+.header-rigth-side{
+    width: 50%;
+}
+.header-left-side h2{
+    font-size: 50px;
+    color: #575757;
+}
+.header-left-side h2 span{
+    color: orange;
+}
+.header-left-side p {
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.link-button{
+    color:#fff;
+    font-size: 20px;
+    background-image: linear-gradient(#FE492D,tomato);
+     padding: 10px 30px;
+     text-decoration: none;
+     border-radius: 5px;
+}
+.header-right-side img{
+    width: 450px;
+    height: auto;
+}
+
+
+.about-section{
+    display: flex;
+    background-image: url(image/bg1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    height: 476px;
+    
+}
+.about-section .left-side {
+    width: 50%;
+    padding-left: 10%;
+}
+.about-section .left-side img{
+    width: 300px;
+    height: auto;
+}
+.about-section .right-side {
+    width: 50%;
+}
+.about-section .right-side h2{
+    color: #707070;
+}
+.about-section .right-side p {
+    font-size: 21px;
+    
+}
+.about-section .link-button-2{
+    background-image:linear-gradient(#F33555, #D21B1F);
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 13px 36px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+
+/* my reciepe area */
+.reciepe-area h2{
+    text-align: center;
+    color: #464b59;
+}
+.reciepe-area p {
+    font-size: 18px;
+}
+#sub-heading{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.service-area {
+    display: flex;
+    margin-top: 50px;
+}
+.service-area h4{
+    font-size: 25px;
+        
+
+}
+.single-service-box img{
+    width: 100%;
+    height: 200px;
+    
+}  
+.single-service-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.single-service-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+}
+.subscriber-count{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 0;
+}
+.subscriber-count h4{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif
+}
+.subscriber-count span{
+    font-size: 18px;
+}
+.online-order {
+    text-align: center;
+    padding: 50px 0;
+}
+.online-order input,select{
+    padding:15px 20px;
+    width: 25%;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    }
+.online-order input:last-child{
+        background-color: #020202;
+        color: #fff;
+        border:1px solid transparent;
+
+}
+
+footer{
+    text-align: center;
+    background-color:#0B0E17;
+    overflow: hidden;
+}
+footer h3{
+    color:#48484B;
+    font-size: 30px;
+}
+footer h3 span{
+    color:orange;
+}
+footer p{
+    color:rgb(255, 255, 255);
+}
