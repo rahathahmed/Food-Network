@@ -19,7 +19,7 @@ h2{
 /*  all css  */
 header{
     display: flex;
-    padding: 100px 0px;
+    padding: 0 0 100px 0;
     
 }
 header .header-left-side{
@@ -55,6 +55,29 @@ header .header-left-side{
 }
 
 
+.menu-menu ul{
+    list-style: none;
+    text-align: left;
+   
+  
+}
+.menu-menu ul li{
+    display: inline;
+    padding: 10px 20px;
+    border: 1px dotted transparent;
+}
+.menu-menu ul li a{
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;   
+}
+.menu-menu ul li:hover{
+    border: 1px dotted black;
+}
+#active{
+    border: 1px dotted black;
+}
 .about-section{
     display: flex;
     background-image: url(image/bg1.jpg) ;
